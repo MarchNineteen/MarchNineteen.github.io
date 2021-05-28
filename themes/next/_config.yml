@@ -177,7 +177,7 @@ toc:
 #creative_commons:
 
 
-sidebar:
+sidebar: slideUpIn
   # Sidebar Position, available value: left | right
   position: left
   #position: right
