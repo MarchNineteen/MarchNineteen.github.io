@@ -86,6 +86,8 @@ JDK1.6版本之后对synchronized的实现进行了各种优化，如自旋锁�
 
 ## ReentrantLock
 
+> https://juejin.cn/post/6844903598984282119
+
 ## ReentrantReadWriteLock
 
 # AbstractQueuedSynchronizer
