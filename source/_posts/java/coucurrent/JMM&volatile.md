@@ -120,7 +120,7 @@ volatile缓存可见性实现原理
 - JMM内存交互层面：volatile修饰的变量的read、load、use操作和assign、store、write必须是连续的，即修改后必须立即同步会主内存，使用时必须从主内存刷新，由此保证volatile变量的可见性。
 - 底层实现：通过汇编lock前缀指令，它会锁定变量缓存行区域并写回主内存，这个操作称为“缓存锁定”，缓存一致性机制会阻止同时修改被两个以上处理器缓存的内存区域数据。一个处理器的缓存回写到内存内存会导致其他处理器的缓存无效
 - 汇编代码查看
--XX:+UnlockDiagnosticVMOptions -XX:+PrintAssembly -Xcomp
+XX:+UnlockDiagnosticVMOptions -XX:+PrintAssembly -Xcomp
 
 # 可见性&原子性&有序性
 
