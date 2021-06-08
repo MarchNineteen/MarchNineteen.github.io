@@ -10,20 +10,16 @@ categories: [并发编程]
 冯诺依曼计算机模型
 ![冯诺依曼计算机模型](/uploads/java/concurrent/冯诺依曼计算机模型.png)
 
-现代计算机硬件基本结构 
-
+现代计算机硬件基本结构
 ![现代计算机硬件基本结构](/uploads/java/concurrent/现代计算机硬件基本结构.png)
 
 CPU内部结构
-
 ![CPU内部结构](/uploads/java/concurrent/CPU内部结构.png)
 
 CPU多核缓存架构
-
 ![CPU多核缓存架构](/uploads/java/concurrent/CPU多核缓存架构.png)
 
 缓存一致性协议(MESI)
-
 ![缓存一致性协议](/uploads/java/concurrent/缓存一致性协议.png)
 
 # 线程
@@ -140,3 +136,7 @@ java语言规范规定JVM线程内部维持顺序化语义。即只要程序的�
 在编译器与CPU处理器中都能执行指令重排优化操作
 
 ![指令重排](source/uploads/java/concurrent/指令重排.png)
+
+# 总线风暴--过度使用volatile可能产生的问题
+
+
