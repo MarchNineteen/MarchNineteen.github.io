@@ -61,13 +61,13 @@ Object实例对象一定是存在堆区的吗？
 
 不一定，如果实例对象没有线程逃逸行为
 
-![对象的内存结构](source/uploads/java/concurrent/对象的内存结构.png)
+![对象的内存结构](/source/uploads/java/concurrent/对象的内存结构.png)
 
 ### MarkWord
 
 以32位JVM中存储内容为例
 
-![MarkWord](source/uploads/java/concurrent/MarkWord.png)
+![MarkWord](/source/uploads/java/concurrent/MarkWord.png)
 
 ## 锁优化升级过程
 
@@ -78,11 +78,11 @@ JDK1.6版本之后对synchronized的实现进行了各种优化，如自旋锁�
 
 ![JVM内置锁优化升级过程](/source/uploads/java/concurrent/JVM内置锁优化升级过程.png)
 
-![锁优化升级过程](source/uploads/java/concurrent/锁优化升级过程.png)
+![锁优化升级过程](/source/uploads/java/concurrent/锁优化升级过程.png)
 
 # Lock
 
-![lock](source/uploads/java/concurrent/lock.png)
+![lock](/source/uploads/java/concurrent/lock.png)
 
 ## ReentrantLock
 
@@ -130,26 +130,26 @@ AQS定义两种队列
 CLH队列是Craig、Landin、Hagersten三人发明的一种基于双向链表数据结构的队列， 是FIFO先入先出线程等待队列，
 Java中的CLH队列是原CLH队列的一个变种, 线程由原自旋机制改为阻塞机制。
 
-![CLH队列](source/uploads/java/concurrent/CLH队列.png)
+![CLH队列](/source/uploads/java/concurrent/CLH队列.png)
 
 ## 条件队列
 
 Condition是一个多线程间协调通信的工具类，使得某个，或者某些线程一起等待某个条件（Condition）,只有当该条件具备时 ，这些等待线程才会被唤醒，从而重新争夺锁
 
-![条件队列](source/uploads/java/concurrent/条件队列.png)
+![条件队列](/source/uploads/java/concurrent/条件队列.png)
 
 ## 公平锁
 
-![公平锁](source/uploads/java/concurrent/公平锁.png)
+![公平锁](/source/uploads/java/concurrent/公平锁.png)
 
 ## 非公平锁
 
-![非公平锁](source/uploads/java/concurrent/非公平锁.png)
+![非公平锁](/source/uploads/java/concurrent/非公平锁.png)
 
 ## 重入锁
 
-![重入锁](source/uploads/java/concurrent/重入锁.png)
+![重入锁](/source/uploads/java/concurrent/重入锁.png)
 
 ## 不可重入锁
 
-![不可重入锁](source/uploads/java/concurrent/不可重入锁.png)
+![不可重入锁](/source/uploads/java/concurrent/不可重入锁.png)
