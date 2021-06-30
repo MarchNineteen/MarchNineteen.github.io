@@ -112,7 +112,7 @@ JMM模型跟CPU缓存模型结构类似，是基于CPU缓存模型建立起来�
 
 ## Java内存模型内存同步规则
 
-![Java内存模型内存同步规则](source/uploads/java/concurrent/Java内存模型内存同步规则.png)
+![Java内存模型内存同步规则](/uploads/java/concurrent/Java内存模型内存同步规则.png)
 
 # volatile原理与内存语义
 
@@ -145,7 +145,7 @@ java语言规范规定JVM线程内部维持顺序化语义。即只要程序的�
 
 在编译器与CPU处理器中都能执行指令重排优化操作
 
-![指令重排](source/uploads/java/concurrent/指令重排.png)
+![指令重排](/uploads/java/concurrent/指令重排.png)
 
 # 总线风暴--过度使用volatile可能产生的问题
 
