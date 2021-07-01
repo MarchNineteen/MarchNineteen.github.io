@@ -18,7 +18,7 @@ categories: [并发编程]
 
 # Java锁体系
 
-![Java锁体系](/uploads/java/concurrent/Java锁体系.pnssg)
+![Java锁体系](/uploads/java/concurrent/Java锁体系.png)
 
 > https://juejin.cn/post/6844904110085373966
 
